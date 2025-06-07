@@ -6,18 +6,19 @@
     <title>Basic HTML Page</title>
     
 </head>
-<body>
+<body style="display: inline-block; border: 1px solid; align-content: center;">
     <nav>
-        <ul>
-            <li id="logo">My Name</li>
-            <li>Home</li>
-            <li>Projects</li>
-            <li>Articles</li>
-            <li>Contact</li>
-        </ul>
+        <div style="display:inline-block">Your name</div>
+        <div style="float: right;">
+            <a style="padding:10px;" href="">Home</a>    
+            <a style="padding:10px;" href="">Projects</a>
+            <a style="padding:10px;" href="">Articles</a>
+            <a style="padding:10px;" href="">Contact</a>
+        </div>
+        
     </nav>
 
-    <table border="1">
+    <table style="display: inline-block" border="1">
         <tr>
             <td rowspan="2">Projects
                 <ul>
@@ -49,5 +50,11 @@
             </td>
         </tr>
     </table>
+    <div>
+        <h3>Reviews from my Teachers</h3>
+        <div style="display: inline-block; border: 1px;">
+            <p>John Doe was a brilliant student. always stood out with his assignments</p>
+        </div>
+    </div>
 </body>
 </html>
