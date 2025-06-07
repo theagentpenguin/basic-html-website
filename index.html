@@ -6,7 +6,7 @@
     <title>Basic HTML Page</title>
     
 </head>
-<body style="display: inline-block; border: 1px solid; align-content: center;">
+<body style=" border: 1px solid; align-content: center;">
     <nav>
         <div style="display:inline-block">Your name</div>
         <div style="float: right;">
@@ -18,9 +18,9 @@
         
     </nav>
 
-    <table style="display: inline-block" border="1">
+    <table style="display: inline-block; border: 1px solid;" >
         <tr>
-            <td rowspan="2">Projects
+            <td style="border: 1px solid;" rowspan="2">Projects
                 <ul>
                     <li>HTML only portfolio</li>
                     <li>Calculator</li>
@@ -29,13 +29,13 @@
                     <li>Product Upcoming Page</li>
                 </ul>
             </td>
-            <td>Work Experience
+            <td style="border: 1px solid;">Work Experience
                 <ul>
                     <i>roadmap.sh</i>
                     <li>Solved all the frontend projects</li>
                 </ul>
             </td>
-            <td rowspan="2">Education
+            <td style="border: 1px solid;" rowspan="2">Education
                 <ul>
                     <li>Graduated with a CGPA of 6.4 out of 10</li>
                     <li>I have built a digital clock as a college project</li>
@@ -43,18 +43,28 @@
             </td>
         </tr>
         <tr>
-            <td>Opensource Work
+            <td style="border: 1px solid;">Opensource Work
                 <ul>
                     <li>Willing to contribute to opensource projects</li>
                 </ul>
             </td>
         </tr>
     </table>
-    <div>
+    
         <h3>Reviews from my Teachers</h3>
-        <div style="display: inline-block; border: 1px;">
+    <div style="display: table; width:100%"></div>
+        <div style="display: table-cell; border: 1px solid; width:33.33%; padding:3px;">
+            <p>John Doe was a brilliant student. always stood out with his assignments</p>
+        </div>
+        <div style="display: table-cell; border: 1px solid; width:33.33%; padding: 3px;">
+            <p>John Doe was a brilliant student. always stood out with his assignments</p>
+        </div>
+        <div style="display: table-cell; border: 1px solid; width:33.33%; padding: 3px">
             <p>John Doe was a brilliant student. always stood out with his assignments</p>
         </div>
     </div>
+    <footer style="text-align: center;">
+        <p>@ all rights reserved 2025</p>
+    </footer>
 </body>
 </html>
